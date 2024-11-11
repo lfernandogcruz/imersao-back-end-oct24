@@ -5,11 +5,13 @@ console.log('Boas vindas!');
 // 2. Crie uma variável chamada "nome" e atribua a ela o seu nome. Em seguida, 
 //    utilize o console.log para exibir a mensagem "Olá, [seu nome]!" no console do navegador.
 
-let name = 'Luis';
-console.log(`Olá, ${name}!`);
+let nome = 'Luis';
+console.log(`Olá, ${nome}!`);
 
 // 3. Crie uma variável chamada "nome" e atribua a ela o seu nome. Em seguida, utilize o alert 
 //    para exibir a mensagem "Olá, [seu nome]!" .
+
+alert(`Olá, ${nome}!`);
 
 // 4. Utilize o prompt e faça a seguinte pergunta: 
 //    Qual a linguagem de programação que você mais gosta?. 

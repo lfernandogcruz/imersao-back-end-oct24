@@ -45,6 +45,10 @@ console.log(`A diferença entre ${valor1} e ${valor2} é igual a ${resultadoSub}
 //    um if para verificar se a pessoa é maior ou menor de idade, 
 //    exibindo uma mensagem apropriada no console.
 
+let idade = prompt('Digite sua idade');
+let definidor = idade >= 18 ? 'maior' : 'menor';
+console.log(`Você é ${definidor} de idade!`);
+
 // 8. Crie uma variável "numero" e peça um valor com prompt verifique se é positivo, 
 //    negativo ou zero. Use if-else para imprimir a respectiva mensagem.
 

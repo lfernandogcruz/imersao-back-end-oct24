@@ -38,6 +38,9 @@ console.log(`A soma de ${valor1} e ${valor2} é igual a ${resultado}`);
 //    Utilize o console.log para mostrar a mensagem 
 //    "A diferença entre [valor1] e [valor2] é igual a [resultado]." no console.
 
+let resultadoSub = valor1 > valor2 ? valor1 - valor2 : valor2 - valor1;
+console.log(`A diferença entre ${valor1} e ${valor2} é igual a ${resultadoSub}`);
+
 // 7. Peça ao usuário para inserir sua idade com prompt. Com base na idade inserida, utilize 
 //    um if para verificar se a pessoa é maior ou menor de idade, 
 //    exibindo uma mensagem apropriada no console.

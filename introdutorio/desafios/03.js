@@ -91,4 +91,5 @@ console.log(inteiro10);
 
 // 13. Use o Math.random para gerar um número inteiro entre 1 e 1000 e exiba esse número no console.
 
-
+let inteiro1000 = parseInt(randomNumber1 * 1000) + 1;
+console.log(inteiro1000);

@@ -17,6 +17,9 @@ alert(`Olá, ${nome}!`);
 //    Qual a linguagem de programação que você mais gosta?. 
 //    Em seguida, armazene a resposta em uma variável e mostre no console do navegador.
 
+let favLang = prompt('Qual a linguagem de programação que você mais gosta?');
+console.log(`Sua linguagem preferida é ${favLang}`);
+
 // 5. Crie uma variável chamada "valor1" e outra chamada "valor2", 
 //    atribuindo a elas valores numéricos de sua escolha. 
 //    Em seguida, realize a soma desses dois valores e armazene o resultado em uma 

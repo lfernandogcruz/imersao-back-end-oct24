@@ -63,6 +63,12 @@ if (numero > 0) {
 
 // 9. Use um loop while para imprimir os números de 1 a 10 no console.
 
+let contador = 1;
+while (contador <= 10) {
+  console.log(`Contando... ${contador}`);
+  contador++
+}
+
 // 10. Crie uma variável "nota" e atribua um valor numérico a ela. 
 //     Use if-else para determinar se a nota é maior ou igual a 7 e exiba "Aprovado" ou "Reprovado" no console.
 

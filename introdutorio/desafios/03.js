@@ -81,6 +81,9 @@ if (nota >= 7) {
 
 // 11. Use o Math.random para gerar qualquer número aleatório e exiba esse número no console.
 
+let randomNumber1 = Math.random();
+console.log(randomNumber1);
+
 // 12. Use o Math.random para gerar um número inteiro entre 1 e 10 e exiba esse número no console.
 
 // 13. Use o Math.random para gerar um número inteiro entre 1 e 1000 e exiba esse número no console.

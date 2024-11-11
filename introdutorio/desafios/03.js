@@ -72,6 +72,13 @@ while (contador <= 10) {
 // 10. Crie uma variável "nota" e atribua um valor numérico a ela. 
 //     Use if-else para determinar se a nota é maior ou igual a 7 e exiba "Aprovado" ou "Reprovado" no console.
 
+let nota = 8;
+if (nota >= 7) {
+  console.log('APROVADO');
+} else {
+  console.log('REPROVADO');
+}
+
 // 11. Use o Math.random para gerar qualquer número aleatório e exiba esse número no console.
 
 // 12. Use o Math.random para gerar um número inteiro entre 1 e 10 e exiba esse número no console.

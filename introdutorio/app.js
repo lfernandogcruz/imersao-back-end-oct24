@@ -8,5 +8,9 @@ if (chute == numeroSecreto) {
   alert(`você descobriu o numero secreto (${numeroSecreto})`);
   
 } else {
-  alert('Voce errou');
+  if (chute > numeroSecreto) {
+    alert(`O número secreto é menor que ${chute}`)
+  } else {
+    alert(`O número secreto é maior que ${chute}`)
+  }
 };

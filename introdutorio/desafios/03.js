@@ -52,6 +52,15 @@ console.log(`Você é ${definidor} de idade!`);
 // 8. Crie uma variável "numero" e peça um valor com prompt verifique se é positivo, 
 //    negativo ou zero. Use if-else para imprimir a respectiva mensagem.
 
+let numero = prompt('Digite um número');
+if (numero > 0) {
+  console.log(`O numero ${numero} é POSITIVO`);
+} else if (numero < 0) {
+  console.log(`O numero ${numero} é NEGATIVO`);
+} else {
+  console.log(`O numero ${numero} é NEUTRO/ZERO`);
+}
+
 // 9. Use um loop while para imprimir os números de 1 a 10 no console.
 
 // 10. Crie uma variável "nota" e atribua um valor numérico a ela. 
